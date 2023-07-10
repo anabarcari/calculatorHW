@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="calculate.js"></script>
+</head>
+<body>
+  <h1>Ana Barcari</h1>
+  <div class="container-fluid text-left px-0">
+    
+    <div class="row">
+      <div class="col-12 mt-4">
+        <input id="result" class="form-control result-display" type="text" value="0" style="width: 645px " readonly>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type ="button" class="btn btn-outline-dark calc-button" value="Deg" name="angle">
+
+        <input type="button" class="btn btn-outline-dark calc-button" value="x!" id="factorial"> 
+
+        <input type="button" class="btn btn-outline-dark calc-button" value="(">
+        <input type="button" class="btn btn-outline-dark calc-button" value=")">
+
+        <input type="button" class="btn btn-outline-dark calc-button" value="%"  id="percent">
+
+        <input type="button" class="btn btn-outline-dark calc-button clear-button" value="AC" id="clear">
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type="button" class="btn btn-outline-dark calc-button" value="sin" id="sin">
+
+        <input type ="button" class="btn btn-outline-dark calc-button" value="ln" id="ln">
+        
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="7" id="seven">
+
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="8" id="eight" >
+        <input type ="button"class="btn btn-outline-dark calc-button middle" value="9" id="nine" >
+
+        <input type ="button" class="btn btn-primary calc-button" value="÷" id="div">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        
+        <input type ="button" class="btn btn-outline-dark calc-button" value="cos" id="cos">
+        <input type ="button" class="btn btn-outline-dark calc-button" value="log" id="log">
+
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="4" id="four" >
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="5" id="five">
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="6" id="six">
+
+        <input type ="button" class="btn btn-primary calc-button" value="x" id="mul">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type ="button" class="btn btn-outline-dark calc-button" value="tan" id="tan">
+        <input type ="button" class="btn btn-outline-dark calc-button" value="√" id="sqrt">
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="1" id="one" >
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="2" id="two">
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="3" id="three">
+        <input type ="button" class="btn btn-primary calc-button" value="-" id="sub">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type ="button" class="btn btn-outline-dark calc-button" value="EXP" id="exp">
+        <input type="button" class="btn btn-outline-dark calc-button" value="x^y" id="powerY">
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="0" id="zero">
+        <input type ="button" class="btn btn-outline-dark calc-button middle" value="." id="diastole">
+        <input type ="button" class="btn btn-primary calc-button bluebutton" value="=" id="equal">
+        <input type ="button" class="btn btn-primary calc-button" value="+"  id="add">
+      </div>
+    </div>
+    
+  </div>
+ 
+</body>
+</html>

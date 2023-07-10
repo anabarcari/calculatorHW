@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .calculator_ana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container-fluid {
+    max-width: 760px;
+  }
+  
+  .result-display {
+    width: 100%;
+  }
+  
+.calc-button {
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 100px;
+    background-color: #c6c8c9;
+    font-family: arial,sans-serif; 
+  }
+  
+  .num-button {
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 100px;
+    background-color: #c6c8c9;
+    font-family: arial,sans-serif; 
+  }
+  
+  
+  
+  .long-button {
+    border: none;
+    border-radius: 5px;
+    color: #777575;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    width: 210px;
+    background-color: #c6c8c9;
+    position: relative;
+    font-family: arial,sans-serif; 
+  
+  }
+  
+  .bluebutton {
+    background-color: rgb(27, 135, 230);
+   }
+  
+  .middle {
+    background-color: #dddddd;
+  }
+  
